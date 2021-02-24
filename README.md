@@ -2,7 +2,8 @@
 # Desafio_Inmetrics_01
 Desafio Automação de Testes Utilizando  Python e Behave
 
-Para executar o Teste, Acesse:
+Para executar o Teste, Utilize no Terminal:
+
 behave --tags=@cadastro
 
 
