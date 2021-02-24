@@ -17,9 +17,13 @@ behave --tags=@cadastro
 
 
 #Comandos necessários para instalação e execução do teste
+
 pip install selenium
+
 pip install behave
+
 pip install nose
+
 pip install allure-behave
 
 #Para que o relatorio allure seja instalado
