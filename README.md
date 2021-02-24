@@ -1,14 +1,33 @@
 
-# Desafio_Globo_01
-Desafio Automação de Testes Utilizando  Python e Behave
+# [Desafio_Globo_01]
+Desafio Automação de Testes Utilizando  Python e BDD em um formulário, entregando no final um relatório detalhado de cada passo dentro do cenário proposto.
 
-Para executar o Teste, Utilize no Terminal:
+
+# [Frameworks]:
+_PyCharm 2020.3.3
+
+_Selenium
+
+_Behave
+
+_Allure
+
+# [Conceitos/Metodologia]:
+_PageObjects;
+
+_CleanCode;
+
+_BDD;
+
+_Reports;
+
+# Para executar o Teste, Utilize no Terminal:
 
 behave --tags=@cadastro
 
 
 
-# Atualizações em desenvolvimento:
+# [Atualizações em desenvolvimento:]
 -Arquitetura que irá executar os testes em 3 navegadores paralelamente
 
 
@@ -17,7 +36,7 @@ behave --tags=@cadastro
 
 
 
-#Comandos necessários para instalação e execução do teste
+#[Comandos necessários para instalação e execução do teste]
 
 pip install selenium
 
