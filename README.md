@@ -46,16 +46,16 @@ pip install nose
 
 pip install allure-behave
 
-#Para que o relatorio allure seja instalado
+# Para que o relatorio allure seja instalado
 npm install -g allure-commandline --save-dev
 
-#executar um cenário no terminal e criar reports
+# executar um cenário no terminal e criar reports
 behave --tags=@cadastro -f allure_behave.formatter:AllureFormatter -o %allure_result_folder% ./features
 
-#executar todos os cenários no terminal e criar report de todos os test cases em um único report
+# executar todos os cenários no terminal e criar report de todos os test cases em um único report
 behave -f allure_behave.formatter:AllureFormatter -o %allure_result_folder% ./features
 
-#Para exibir o relatório com os casos de testes em questão, execute:
+# Para exibir o relatório com os casos de testes em questão, execute:
 allure serve %allure_result_folder%
 
 
