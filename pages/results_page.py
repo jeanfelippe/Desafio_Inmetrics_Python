@@ -3,8 +3,9 @@
 from browser import Browser
 
 class ResultsPage(Browser):
+    def assercao_mensagem(self):
+        return self.driver.find_element_by_css_selector('.success').text
 
 
-        def clicar_cadastro(self):
-            self.driver.find_element_by_xpath('//button[text()="SOLICITAR CADASTRO"]').click()
-            #sleep(5)
+    def assercao_email(self):
+        return self.driver.find_element_by_css_selector('.errorlist').text

@@ -113,10 +113,7 @@ class FormPage(Browser):
         sleep(5)
 
 
-    def assercao_mensagem(self):
-        self.driver.findElement_by_xpath("//div[@class='success']")
-        sleep(5)
-        # driver.close()
+
 
 
 
