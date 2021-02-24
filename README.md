@@ -1,5 +1,5 @@
 
-# Desafio_Inmetrics_01
+# Desafio_Globo_01
 Desafio Automação de Testes Utilizando  Python e Behave
 
 Para executar o Teste, Utilize no Terminal:
