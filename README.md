@@ -21,7 +21,7 @@ _BDD;
 
 _Reports;
 
-# Para executar o Teste, Utilize no Terminal:
+# [Para executar o Teste, Utilize no Terminal:]
 
 behave --tags=@cadastro
 
